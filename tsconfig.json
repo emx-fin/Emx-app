@@ -3,6 +3,7 @@
         "./src/**/*"
     ],
     "compilerOptions": {
+        "noImplicitAny": false,
         "strict": true,
         "esModuleInterop": true,
         "lib": [
