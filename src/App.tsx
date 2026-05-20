@@ -680,7 +680,7 @@ export default function App() {
                   </div>
 
                   <div>
-                    <label style={S.lbl}>Amount (VNĐ) *</label>
+                    <label style={S.lbl as any}>Amount (VNĐ) *</label>
                     <input
                       type="number"
                       inputMode="numeric"
