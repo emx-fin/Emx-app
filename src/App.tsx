@@ -629,7 +629,7 @@ export default function App() {
                         border: `1px solid ${cat?.color}28`,
                       }}
                     >
-                      <span style={{ fontSize: 26 }}>{cat.icon}</span>
+                      <span style={{ fontSize: 26 }}>{cat?.icon}</span>
                       <div
                         style={{
                           fontWeight: 700,
