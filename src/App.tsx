@@ -751,7 +751,7 @@ export default function App() {
                         onChange={(e) =>
                           setForm({ ...form, staff: e.target.value })
                         }
-                        style={S.sel}
+                        style={S.sel as any}
                       >
                         <option value="">— Select Manager —</option>
                         {MANAGERS.map((m) => (
@@ -784,7 +784,7 @@ export default function App() {
                       onChange={(e) =>
                         setForm({ ...form, date: e.target.value })
                       }
-                      style={S.input}
+                      style={S.input as any}
                     />
                   </div>
 
