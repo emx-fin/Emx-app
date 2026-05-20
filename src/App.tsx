@@ -176,7 +176,7 @@ export default function App() {
     if (!selCat || !form.amount || !form.staff) return;
     setSyncing(true);
 
-    const cat = CATS.find((c) => c.id === selCat);
+    const cat = CATS.find((c) => c.id === selCat) as any;
     const sub = form.subIdx !== "" ? cat?.subs[parseInt(form.subIdx)] : null;
     const entry = {
       id: Date.now(),
