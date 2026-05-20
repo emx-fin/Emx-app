@@ -623,10 +623,10 @@ export default function App() {
                         alignItems: "center",
                         gap: 11,
                         marginBottom: 18,
-                        background: `${cat.color}10`,
+                        background: `${cat?.color}10`,
                         borderRadius: 13,
                         padding: "13px 16px",
-                        border: `1px solid ${cat.color}28`,
+                        border: `1px solid ${cat?.color}28`,
                       }}
                     >
                       <span style={{ fontSize: 26 }}>{cat.icon}</span>
