@@ -90,7 +90,7 @@ const fmtDisp = () =>
     year: "numeric",
   });
 
-const sendDataWithFetch = async (payload) => {
+const sendDataWithFetch = async (payload: any) => {
   const formData = new FormData();
   formData.append("sheetId", SHEET_ID);
   formData.append("date", payload.date || "");
