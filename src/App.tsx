@@ -147,7 +147,7 @@ export default function App() {
   }, [entries, loaded]);
 
   const showToast = (msg, type = "success") => {
-    setToast({ msg, type });
+    setToast({ msg, type } as any);
     setTimeout(() => setToast(null), 3200);
   };
 
