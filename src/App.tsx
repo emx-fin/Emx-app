@@ -633,7 +633,7 @@ export default function App() {
                       <div
                         style={{
                           fontWeight: 700,
-                          color: cat.color,
+                          color: cat?.color,
                           fontSize: 16,
                         }}
                       >
