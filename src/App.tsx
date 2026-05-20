@@ -654,7 +654,7 @@ export default function App() {
                         onChange={(e) =>
                           setForm({ ...form, subIdx: e.target.value })
                         }
-                        style={S.sel}
+                        style={S.sel as any}
                       >
                         <option value="">— Select item —</option>
                         {CATS.find((c) => c.id === selCat)?.subs.map((s, i) => (
