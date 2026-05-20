@@ -77,7 +77,7 @@ const CATS = [
 // ─────────────────────────────────────────────
 // HELPERS & API
 // ─────────────────────────────────────────────
-const fmtVND = (n) =>
+const fmtVND = (n: any) =>
   new Intl.NumberFormat("vi-VN", { style: "currency", currency: "VND" }).format(
     n || 0
   );
