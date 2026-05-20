@@ -637,7 +637,7 @@ export default function App() {
                           fontSize: 16,
                         }}
                       >
-                        {cat.label}
+                        {cat?.label}
                       </div>
                     </div>
                   );
