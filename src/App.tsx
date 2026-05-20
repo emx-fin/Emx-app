@@ -125,7 +125,7 @@ export default function App() {
     }
   });
 
-  const [selCat, setSelCat] = useState(null);
+  const [selCat, setSelCat] = useState<any>(null);
   const [form, setForm] = useState({
     subIdx: "",
     amount: "",
