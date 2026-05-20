@@ -136,7 +136,7 @@ export default function App() {
 
   const [syncing, setSyncing] = useState(false);
   const [syncPct, setSyncPct] = useState(0);
-  const [toast, setToast] = useState(null);
+  const [toast, setToast] = useState<any>(null);
   const syncTimer = useRef<any>(null);
 
   const isConnected = SCRIPT_URL.startsWith("http") && SHEET_ID.length > 10;
