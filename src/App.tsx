@@ -177,7 +177,7 @@ export default function App() {
     setSyncing(true);
 
     const cat = CATS.find((c) => c.id === selCat);
-    const sub = form.subIdx !== "" ? cat.subs[parseInt(form.subIdx)] : null;
+    const sub = form.subIdx !== "" ? cat?.subs[parseInt(form.subIdx)] : null;
     const entry = {
       id: Date.now(),
       date: form.date,
